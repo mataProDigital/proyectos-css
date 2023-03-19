@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+  font-family: sans-serif; /* Fuente predeterminada del cuerpo de la página */
+  background-color: darkgray; /* Color de fondo del cuerpo de la página */
+  width: 100%; /* Ancho completo del cuerpo de la página */
+  height: 100vh; /* Altura completa del cuerpo de la página */
+}
+
+a {
+  color: white; /* Color de enlace predeterminado */
+}
+
+/* Estilos del encabezado */
+header {
+  display: flex; /* Usa flexbox para posicionar los elementos secundarios */
+  justify-content: space-between; /* Centra los elementos secundarios horizontalmente */
+  align-items: center; /* Centra los elementos secundarios verticalmente */
+  background-color: #000000; /* Color de fondo del encabezado */
+  min-height: 70px; /* Altura mínima del encabezado */
+  padding: 15px; /* Espacio alrededor del contenido del encabezado */
+}
+
+.logo {
+  display: flex; /* Usa flexbox para posicionar los elementos secundarios */
+  align-items: center; /* Centra los elementos secundarios verticalmente */
+}
+
+.logo img {
+  height: 80px; /* Altura de la imagen del logotipo */
+  margin-right: 15px; /* Espacio a la derecha de la imagen del logotipo */
+}
+.name_empresa{
+  font-size: 40px;
+  margin: 0;
+}
+
+nav a {
+  font-weight: 600; /* Grosor de fuente de los enlaces del menú de navegación */
+  padding-right: 50px; /* Espacio a la derecha de los enlaces del menú de navegación */
+}
+
+nav a:hover {
+  color: rgb(133, 211, 60); /* Color de enlace al pasar el cursor por encima */
+}
+
+header h2 span {
+  color: red; /* Color de texto del elemento span dentro de un elemento h2 dentro del encabezado */
+}
+
+
+
+
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 680px) {
+  header {
+    flex-direction: column; /* Posiciona los elementos secundarios verticalmente */
+  }
+  nav {
+    padding: 10px 0; /* Espacio alrededor de los enlaces del menú de navegación */
+  }
+}
