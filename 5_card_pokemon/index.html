@@ -1,15 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
-  <title>Basic menu</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
-  
-</body>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="img/favicon-16x16.png"
+			type="image/x-icon"
+		/>
+		<title>Card pokemon</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
+	</head>
+	<body>
+		<main class="container">
+			<article class="card">
+				<img
+					src="img/fondoencabezado.svg"
+					alt="fondo card"
+					class="card__header"
+				/>
+				<div class="card__body">
+					<div class="card__body_contentimg">
+						<img
+							src="img/charizard.png"
+							alt="pokemon"
+							class="card__body_contentimg-img"
+							width="150"
+						/>
+					</div>
+					<h1 class="card__body_title">Charizard <span>#26</span></h1>
+					<p class="card__body_text">Coleccionable</p>
+				</div>
+				<div class="card__footer">
+					<div class="card__footer_poder">
+						<h3>Poder</h3>
+						<img src="img/fuego.png" alt="fuego" width="35"/>
+					</div>
+					<div class="card__footer_poder">
+						<h3>Resistencia</h3>
+						<img src="img/castillo.png" alt="castillo" width="35"/>
+					</div>
+					<div class="card__footer_poder">
+						<h3>Poder</h3>
+						<img src="img/cofre.png" alt="cofre" width="35" />
+					</div>
+				</div>
+			</article>
+		</main>
+	</body>
 </html>
