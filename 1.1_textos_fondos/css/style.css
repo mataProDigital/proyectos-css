@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* seeccion 1 */
+.background {
+	width: 100%;/*  esto establece el ancho de la clase "background" en un 100% del ancho de su contenedor. */
+	height: 100vh;
+	background-size: cover;/* esto establece el tamaño de la imagen de fondo para cubrir completamente el área del contenedor. */
+	background-position: center;
+	background-attachment: fixed;/* esto establece que la imagen de fondo permanezca fija mientras se desplaza la página. */
+}
+
+.section1 {
+	background-image: url(../img/hero.jpg);
+	padding: 0.1px;
+}
+
+.section1 h2 {
+	background: #000;
+	color: #fff;
+	border-radius: 1.875rem;
+	width: 18.75rem;
+	height: 6.25rem;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 6.25rem;
+	margin-top: calc(50vh - 3.125rem); /* esto establece el margen superior del elemento h2 como la mitad de la altura de la ventana del navegador menos la mitad de la altura del elemento h2. */
+	-webkit-border-radius: 1.875rem;
+	-moz-border-radius: 1.875rem;
+	-ms-border-radius: 1.875rem;
+	-o-border-radius: 1.875rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* seccion text */
+
+.text{
+  width: 100%;
+  text-align: center;
+  padding: 60px 30px;
+}
+.text p{
+  padding: 20px 0;
+}
+
+.section2{
+  height: 400px;
+  background-image: url(../img/fondo1.png);
+  color: #fff;
+  text-align: center;
+  line-height: 400px;
+}
+
+.background h3{
+  font-size: 4rem;
+  
+}
+
+.section3{
+  height: 600px;
+  background-image: url(../img/fondo2.png);
+  color: #fff;
+  text-align: center;
+  line-height: 100vh;
+}
