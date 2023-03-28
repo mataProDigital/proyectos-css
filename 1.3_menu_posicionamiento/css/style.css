@@ -41,7 +41,13 @@ body{
     font-size: 3rem;
     color: #fff;
     text-align: center;
-    line-height: 100vh;
+    line-height: 50vh;
+}
+
+section p{
+  color: rgb(36, 39, 39);
+  font-size: 20px;
+  text-align: center;
 }
 
 .section:nth-of-type(1){
