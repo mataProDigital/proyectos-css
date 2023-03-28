@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+body {
+	font-family: 'Merriweather', serif;
+}
+
+.hero {
+	height: 100vh;
+	background-image: linear-gradient(180deg, #275dc285 0%, #1d20b67a 100%),
+		url(../img/portada.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 0.1px;
+  position: relative;
+}
+
+.container-text {
+	text-align: center;
+	margin-top: 110px;
+	color: #fff;
+}
+
+.hero__title {
+	font-size: 4rem;
+}
+
+.hero__copy {
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin: 20px 0;
+}
+.hero__cta {
+	display: inline-block;
+	background: #fff;
+	text-decoration: none;
+	color: #257dc2;
+	padding: 15px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: ;
+	-moz-border-radius: ;
+	-ms-border-radius: ;
+	-o-border-radius: ;
+	font-weight: 900;
+}
+
+.hero__cta:hover {
+	background: #257dc2;
+	color: #fff;
+}
+
+.hero__weve{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+}

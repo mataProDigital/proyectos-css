@@ -5,7 +5,13 @@ Es una practica en la cual se enfoca en **Modelo de caja** , **Fondos**  y las *
 
 # Files
 
-La practica esta integrada por un index.html, style.css, normalize.css  y una carpeta img.
+La practica esta integrada por:
+
+ 1. index.html
+ 2.  style.css
+ 3.  normalize.css 
+ 4. carpeta img.
+ 5. README
 
 > El archivo normalize se le agrego el siguiente código 
 ``` css 
@@ -23,9 +29,9 @@ box-sizing:  border-box;
 
 Usaremos **Google fonts**  
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Merriweather', serif;
 ```
 
 ## Tecnologías utilizadas
