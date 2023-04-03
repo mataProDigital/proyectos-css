@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+  --color-price: #26293a;
+  --color-features: #9c9191;
+  --color-boton: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.card__item {
+  max-width: 350px;
+  width: 30%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 40px 0;
+  background: #fff;
+}
