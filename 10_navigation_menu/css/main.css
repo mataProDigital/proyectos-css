@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: rgb(58, 57, 57);
+    background: #014BAD;
     height: 50px;
     font-family: sans-serif;
     font-weight: bold;
@@ -77,7 +77,7 @@
 /* part 7 */
 
 .banner_area {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Pic/nature.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/workspace.jpg);
     background-size: cover;
     background-position: center center;
     display: flex;
